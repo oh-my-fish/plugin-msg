@@ -39,7 +39,6 @@
 # v. 0.1.0
 #/
 
-
 function msg -d "Technicolor printer."
   # Default " " whitespace between strings, skip with -s.
   set -l ws " "
