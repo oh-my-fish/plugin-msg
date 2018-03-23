@@ -1,6 +1,6 @@
 # Set style, fg/bg colors and reset. Modifies its parent scope of `msg`.
 # @params [<fg>] [<bg>] [<style>]
-function --no-scope-shadowing msg.util.set.color
+function msg.util.set.color --no-scope-shadowing
   if [ (count $argv) -gt 0 ]
     set fg $argv[1]
   end
